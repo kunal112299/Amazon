@@ -15,7 +15,7 @@ const SignIn = () => {
 
     return (
         <div className="relative flex flex-col gap-4 w-full max-w-screen overflow-x-hidden">
-            <div className="flex flex-col items-center gap-4 p-4 bg-gray-100">
+            <div className="flex flex-col items-center gap-4 p-4 h-fit">
                 <Link className="cursor-pointer flex amazon-logo items-start min-w-24" to={"/"}>
                     <img src={AmazonLogo} alt="Amazon Logo" height={38} className="h-9" />
                 </Link>
